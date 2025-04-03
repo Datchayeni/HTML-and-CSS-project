@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Review</title>
+</head>
+<body style="background-color: #121212">
+	<img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2022/01/Eren-and-Mikasa-in-Attack-on-Titan.jpg" width="1500" height="400">
+    <center><h3 style="color:white">Log in or Sign up for more</h3></center>
+    <center><fieldset style="background-color: LightSlateGrey; width: 500px; padding: 20px; border-radius: 10px;">
+        <form action="/submit" method="post">
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+            
+            <input type="reset" value="Reset"><br><br>
+            
+            <label>For new user</label>
+            <button type="submit" name="action" value="Sign up" onclick="alert('signed up')">Sign up</button><br><br>
+            
+            <label>If you already have an account</label>
+            <button type="submit" name="action" value="Login" onclick="alert('logged in')">Login</button><br><br>
+        </form>
+    </fieldset></center>
+</body>
+</html>

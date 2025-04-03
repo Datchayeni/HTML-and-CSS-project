@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Order</title>
+	<link rel="stylesheet" href="CSS3.css">
+</head>
+<body style="background-color:#BC9585">
+    <center><h1 style="color:#32474C">Place Your Book Order</h1></center>
+	<img src="https://i.pinimg.com/736x/df/72/88/df72883cef54607c3f854258424e7bb7.jpg" width="1490" height="300">
+	<br><br><br><br>
+	<center><h2>Please check if the book is in stock in the website before placing order</h2></center>
+	<br><br><br><br>
+    <center><fieldset style="background-color: #45322E; width: 500px; padding: 20px; border-radius: 10px;">
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="book_title">Book Title:</label>
+        <input type="text" id="book_title" name="book_title" required><br><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <button type="submit">Order Now</button>
+    </form></fieldset></center>
+</body>
+</html>
